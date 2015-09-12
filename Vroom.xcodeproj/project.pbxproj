@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1A045CC51BA41EAA0011F857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A045CC41BA41EAA0011F857 /* AppDelegate.swift */; };
-		1A045CC71BA41EAA0011F857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A045CC61BA41EAA0011F857 /* ViewController.swift */; };
 		1A045CCA1BA41EAA0011F857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A045CC81BA41EAA0011F857 /* Main.storyboard */; };
 		1A045CCC1BA41EAA0011F857 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A045CCB1BA41EAA0011F857 /* Images.xcassets */; };
 		1A045CCF1BA41EAA0011F857 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A045CCD1BA41EAA0011F857 /* LaunchScreen.xib */; };
 		1A045CDB1BA41EAA0011F857 /* VroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A045CDA1BA41EAA0011F857 /* VroomTests.swift */; };
+		1A045CE51BA422EF0011F857 /* VroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A045CE41BA422EF0011F857 /* VroomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		1A045CBF1BA41EAA0011F857 /* Vroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A045CC31BA41EAA0011F857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A045CC41BA41EAA0011F857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A045CC61BA41EAA0011F857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A045CC91BA41EAA0011F857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A045CCB1BA41EAA0011F857 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A045CCE1BA41EAA0011F857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1A045CD41BA41EAA0011F857 /* VroomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VroomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A045CD91BA41EAA0011F857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A045CDA1BA41EAA0011F857 /* VroomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VroomTests.swift; sourceTree = "<group>"; };
+		1A045CE41BA422EF0011F857 /* VroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VroomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				1A045CC41BA41EAA0011F857 /* AppDelegate.swift */,
-				1A045CC61BA41EAA0011F857 /* ViewController.swift */,
 				1A045CC81BA41EAA0011F857 /* Main.storyboard */,
+				1A045CE41BA422EF0011F857 /* VroomViewController.swift */,
 				1A045CCB1BA41EAA0011F857 /* Images.xcassets */,
 				1A045CCD1BA41EAA0011F857 /* LaunchScreen.xib */,
 				1A045CC21BA41EAA0011F857 /* Supporting Files */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A045CC71BA41EAA0011F857 /* ViewController.swift in Sources */,
+				1A045CE51BA422EF0011F857 /* VroomViewController.swift in Sources */,
 				1A045CC51BA41EAA0011F857 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
